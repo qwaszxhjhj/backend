@@ -1,5 +1,6 @@
 name: Deploy to AWS ECS
 on:
+  workflow_dispatch:
   push:
     branches: [ deploy-to-ecs ]
 jobs:
